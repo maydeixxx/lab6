@@ -8,11 +8,11 @@ int main(){
     nechet = 0; 
     sum = 0;
     
-    for(int i = 1; i < 17; i += 2) {
-        nechet += cardnum[i];
+    for(int i = 1; i < 16; i += 2) {
+        chet += cardnum[i];
     }
 
-    for(int i = 0; i < 17; i += 2) {
+    for(int i = 0; i < 16; i += 2) {
         int doubled = cardnum[i] * 2;
         if (doubled > 9) {
             nechet += doubled - 9;
